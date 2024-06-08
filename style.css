@@ -1,0 +1,128 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    body {
+        background-color: #d39332;
+        ;
+    }
+
+    .header {
+        background-color: #F0CC8C;
+        display: flex;
+        padding-left: 100px;
+        padding: 5px;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+
+    .header h1 {
+        color: #752C17;
+        display: flex;
+    }
+
+    .nav-section {
+        display: flex;
+        background-color: #F0CC8C;
+        padding-left: 100px;
+        padding: 30px;
+        margin-right: 20px;
+        margin-top: 5px;
+        margin: 10px;
+        margin-left: auto;
+    }
+
+    .nav-section nav {
+        margin-left: auto;
+        display: flex;
+    }
+
+    .nav-section a {
+        margin-left: 20px;
+        /* Add some spacing between the navigation links */
+        text-decoration: none;
+        /* Remove underlines from links */
+        color: #752C17;
+        /* Set text color */
+    }
+
+    h1 {
+        padding: 20px;
+    }
+
+    .nav-section nav a {
+        margin-left: 20px;
+    }
+
+    .get {
+        background-color: #752C17;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .sign {
+        border: 1px solid #752C17;
+        padding: 10px;
+        width: 80px;
+        text-align: center;
+        height: 50px;
+        box-shadow: #752C17;
+        border-radius: 5px;
+        height: 40px;
+    }
+
+    .bold {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .Highlight {
+        color: #752C17;
+    }
+
+    .content {
+        background-color: #F0CC8C;
+        padding: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 20px;
+    }
+
+    .input {
+        background-color: #F0CC8C;
+        padding-left: 100px;
+        padding: 5px;
+        margin-right: 20px;
+    }
+
+    .in {
+        border: 1px solid #752C17;
+        padding: 15px;
+        border-radius: 10px;
+        width: 300px;
+        text-align: left;
+        height: 50px;
+        background-color: #F0CC8C;
+    }
+
+    .image {
+        background-color: #F0CC8C;
+        top: 10px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding: 5px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        contain-intrinsic-height: 1000px;
+    }
